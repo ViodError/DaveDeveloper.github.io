@@ -998,7 +998,7 @@ body.dark-theme{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 340px){ 
+@media screen and (min-width: 340px){ 
     .skills_container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
